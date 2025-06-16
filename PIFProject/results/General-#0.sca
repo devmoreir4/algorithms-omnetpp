@@ -1,0 +1,30 @@
+version 3
+run General-0-20250616-19:26:24-4900
+attr configname General
+attr datetime 20250616-19:26:24
+attr datetimef 20250616-192624
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network PIF
+attr processid 4900
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network PIF
+config sim-time-limit 30s
+config **.numNodes 5
+
+par PIF.node[0] typename "\"PIFNode\""
+par PIF.node[1] typename "\"PIFNode\""
+par PIF.node[2] typename "\"PIFNode\""
+par PIF.node[3] typename "\"PIFNode\""
+par PIF.node[4] typename "\"PIFNode\""
+par PIF typename "\"PIF\""
+par PIF numNodes 5
+

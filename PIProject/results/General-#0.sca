@@ -1,0 +1,32 @@
+version 3
+run General-0-20250616-19:24:16-1468
+attr configname General
+attr datetime 20250616-19:24:16
+attr datetimef 20250616-192416
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network PI
+attr processid 1468
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network PI
+config sim-time-limit 10s
+config **.numNodes 7
+
+par PI.node[0] typename "\"PINode\""
+par PI.node[1] typename "\"PINode\""
+par PI.node[2] typename "\"PINode\""
+par PI.node[3] typename "\"PINode\""
+par PI.node[4] typename "\"PINode\""
+par PI.node[5] typename "\"PINode\""
+par PI.node[6] typename "\"PINode\""
+par PI typename "\"PI\""
+par PI numNodes 7
+
