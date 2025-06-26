@@ -1,0 +1,49 @@
+version 3
+run General-0-20250625-21:21:36-4576
+attr configname General
+attr datetime 20250625-21:21:36
+attr datetimef 20250625-212136
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network conectividade.Net
+attr processid 4576
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network conectividade.Net
+config *.node1.eIniciador true
+
+par Net.node1.out[0].channel typename "\"ned.IdealChannel\""
+par Net.node2.out[0].channel typename "\"ned.IdealChannel\""
+par Net.node2.out[1].channel typename "\"ned.IdealChannel\""
+par Net.node3.out[0].channel typename "\"ned.IdealChannel\""
+par Net.node2.out[2].channel typename "\"ned.IdealChannel\""
+par Net.node4.out[0].channel typename "\"ned.IdealChannel\""
+par Net.node1.out[1].channel typename "\"ned.IdealChannel\""
+par Net.node5.out[0].channel typename "\"ned.IdealChannel\""
+par Net.node5.out[1].channel typename "\"ned.IdealChannel\""
+par Net.node6.out[0].channel typename "\"ned.IdealChannel\""
+par Net.node5.out[2].channel typename "\"ned.IdealChannel\""
+par Net.node7.out[0].channel typename "\"ned.IdealChannel\""
+par Net.node1 typename "\"conectividade.Node\""
+par Net.node1 eIniciador true
+par Net.node2 typename "\"conectividade.Node\""
+par Net.node2 eIniciador false
+par Net.node3 typename "\"conectividade.Node\""
+par Net.node3 eIniciador false
+par Net.node4 typename "\"conectividade.Node\""
+par Net.node4 eIniciador false
+par Net.node5 typename "\"conectividade.Node\""
+par Net.node5 eIniciador false
+par Net.node6 typename "\"conectividade.Node\""
+par Net.node6 eIniciador false
+par Net.node7 typename "\"conectividade.Node\""
+par Net.node7 eIniciador false
+par Net typename "\"conectividade.Net\""
+
