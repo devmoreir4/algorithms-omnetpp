@@ -1,0 +1,64 @@
+version 3
+run General-0-20250702-02:38:53-11300
+attr configname General
+attr datetime 20250702-02:38:53
+attr datetimef 20250702-023853
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network distancias.Graph
+attr processid 11300
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network distancias.Graph
+config Graph.node1.isInitiator true
+
+par Graph.node1.edges$o[0].channel typename "\"ned.IdealChannel\""
+par Graph.node2.edges$o[0].channel typename "\"ned.IdealChannel\""
+par Graph.node1.edges$o[1].channel typename "\"ned.IdealChannel\""
+par Graph.node3.edges$o[0].channel typename "\"ned.IdealChannel\""
+par Graph.node2.edges$o[1].channel typename "\"ned.IdealChannel\""
+par Graph.node6.edges$o[0].channel typename "\"ned.IdealChannel\""
+par Graph.node3.edges$o[1].channel typename "\"ned.IdealChannel\""
+par Graph.node6.edges$o[1].channel typename "\"ned.IdealChannel\""
+par Graph.node2.edges$o[2].channel typename "\"ned.IdealChannel\""
+par Graph.node4.edges$o[0].channel typename "\"ned.IdealChannel\""
+par Graph.node5.edges$o[0].channel typename "\"ned.IdealChannel\""
+par Graph.node7.edges$o[0].channel typename "\"ned.IdealChannel\""
+par Graph.node4.edges$o[1].channel typename "\"ned.IdealChannel\""
+par Graph.node7.edges$o[1].channel typename "\"ned.IdealChannel\""
+par Graph.node6.edges$o[2].channel typename "\"ned.IdealChannel\""
+par Graph.node4.edges$o[2].channel typename "\"ned.IdealChannel\""
+par Graph.node5.edges$o[1].channel typename "\"ned.IdealChannel\""
+par Graph.node6.edges$o[3].channel typename "\"ned.IdealChannel\""
+par Graph.node5.edges$o[2].channel typename "\"ned.IdealChannel\""
+par Graph.node3.edges$o[2].channel typename "\"ned.IdealChannel\""
+par Graph.node1 typename "\"distancias.Node\""
+par Graph.node1 isInitiator true
+par Graph.node1 n 10
+par Graph.node2 typename "\"distancias.Node\""
+par Graph.node2 isInitiator false
+par Graph.node2 n 10
+par Graph.node3 typename "\"distancias.Node\""
+par Graph.node3 isInitiator false
+par Graph.node3 n 10
+par Graph.node4 typename "\"distancias.Node\""
+par Graph.node4 isInitiator false
+par Graph.node4 n 10
+par Graph.node5 typename "\"distancias.Node\""
+par Graph.node5 isInitiator false
+par Graph.node5 n 10
+par Graph.node6 typename "\"distancias.Node\""
+par Graph.node6 isInitiator false
+par Graph.node6 n 10
+par Graph.node7 typename "\"distancias.Node\""
+par Graph.node7 isInitiator false
+par Graph.node7 n 10
+par Graph typename "\"distancias.Graph\""
+

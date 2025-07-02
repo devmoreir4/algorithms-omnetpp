@@ -1,2 +1,2 @@
 # distributed-algorithms
-Some distributed algorithms implemented in OMNeT++
+Some algorithms implemented in OMNeT++

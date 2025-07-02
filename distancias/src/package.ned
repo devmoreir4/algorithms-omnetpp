@@ -1,0 +1,3 @@
+package distancias;
+
+@license(LGPL);
