@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/propagation_with_feedback -n .:../src $*
+# for shared lib, use: opp_run -l ../src/propagation_with_feedback -n .:../src $*

@@ -1,0 +1,32 @@
+version 3
+run General-0-20250703-03:30:30-5308
+attr configname General
+attr datetime 20250703-03:30:30
+attr datetimef 20250703-033030
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network propagation_without_feedback.PI
+attr processid 5308
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network propagation_without_feedback.PI
+config sim-time-limit 10s
+config **.numNodes 7
+
+par PI.node[0] typename "\"propagation_without_feedback.PINode\""
+par PI.node[1] typename "\"propagation_without_feedback.PINode\""
+par PI.node[2] typename "\"propagation_without_feedback.PINode\""
+par PI.node[3] typename "\"propagation_without_feedback.PINode\""
+par PI.node[4] typename "\"propagation_without_feedback.PINode\""
+par PI.node[5] typename "\"propagation_without_feedback.PINode\""
+par PI.node[6] typename "\"propagation_without_feedback.PINode\""
+par PI typename "\"propagation_without_feedback.PI\""
+par PI numNodes 7
+

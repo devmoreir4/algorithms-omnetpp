@@ -1,0 +1,30 @@
+version 3
+run General-0-20250703-03:30:55-12432
+attr configname General
+attr datetime 20250703-03:30:55
+attr datetimef 20250703-033055
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network propagation_with_feedback.PIF
+attr processid 12432
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network propagation_with_feedback.PIF
+config sim-time-limit 30s
+config **.numNodes 5
+
+par PIF.node[0] typename "\"propagation_with_feedback.PIFNode\""
+par PIF.node[1] typename "\"propagation_with_feedback.PIFNode\""
+par PIF.node[2] typename "\"propagation_with_feedback.PIFNode\""
+par PIF.node[3] typename "\"propagation_with_feedback.PIFNode\""
+par PIF.node[4] typename "\"propagation_with_feedback.PIFNode\""
+par PIF typename "\"propagation_with_feedback.PIF\""
+par PIF numNodes 5
+
